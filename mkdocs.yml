@@ -1,0 +1,58 @@
+site_name: Espacio de Formación y Gestión del Conocimiento
+
+site_url: https://sogaray.github.io/Risk_analysis/
+
+repo_name: sogaray/Risk_analysis
+repo_url: https://github.com/sogaray/Risk_analysis
+
+theme:
+  logo: assets/logo.png
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: red
+    - scheme: slate
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+  features:
+    - content.code.annotate
+    - content.math
+
+copyright: Copyright &copy; 2026 Delegación de Cruz Roja Alemana en Centroamérica.
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.arithmatex
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js
+  - data:text/javascript,document.addEventListener("DOMContentLoaded",function(){var style=document.createElement("style");style.innerHTML=":root{--md-primary-fg-color:#e2001a;--md-accent-fg-color:#e2001a;}";document.head.appendChild(style);});
+
+nav:
+  - Inicio: index.md
+  - Sobre la página: Introduccion.md
+  - Gestión de la Información: 
+      - Sobre esta sección: IM_intro.md
+      - Fundamentos de Búsqueda de Datos: fundamentos.md
+      - Fuentes en línea para la búsqueda de datos: fuenteslinea.md
+      - Limpieza y mejora de los datos: 
+        - Gestión de datos: gestiondatos.md
+        - Limpieza y transformación de datos con herramientas de software: excel.md
+  - Introducción al análisis de riesgo:
+      - Sobre esta sección: Ana_risg.md 
+      - Introducción a INFORM: introduccion_a_inform.md
+      - Orientaciones para desarrollar indicadores locales: indicator.md
+  - Laboratorio Virtual: labim.md
