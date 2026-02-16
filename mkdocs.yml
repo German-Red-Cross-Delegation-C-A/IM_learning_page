@@ -1,9 +1,9 @@
 site_name: Espacio de Formación y Gestión del Conocimiento
 
-site_url: https://sogaray.github.io/Risk_analysis/
+site_url: https://german-red-cross-delegation-c-a.github.io/IM_learning_page/
 
-repo_name: sogaray/Risk_analysis
-repo_url: https://github.com/sogaray/Risk_analysis
+repo_name: german-red-cross-delegation-c-a.github.io/IM_learning_page
+repo_url: https://github.com/German-Red-Cross-Delegation-C-A/IM_learning_page
 
 theme:
   logo: assets/logo.png
